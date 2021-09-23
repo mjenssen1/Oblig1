@@ -4,14 +4,45 @@ h1 {
     text-align: center;
 }
 
-body {
-    background-color: rgb(203, 225, 250);
+h2 {
+    
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color:rgb(197, 197, 197);
+}
+
+li a{
+    display: block;
+    width: 60px;
+    color: black;
+}
+
+/* Endrer på link fargen når vi drar over. */
+li a:hover {
+    background-color: rgb(219, 214, 214);
+    color: rgb(0, 0, 0);
+}
+
 
 p {
 
     text-align: center;
     border:rgba(0, 0, 0, 0);
-    padding: 30px;
+    
 }
+
+
+
 
