@@ -26,12 +26,12 @@ nav {
     background-color:rgb(216, 214, 214);
 }
 
-li {
+.navigation > li {
     float: left;
     
 }
 
-li a{
+.navigation > li a{
     padding: 10px 20px;
     display: block;
     width: 100px;
@@ -40,7 +40,7 @@ li a{
 }
 
 /* Endrer på link fargen når vi drar over. */
-li a:hover {
+.navigation > li a:hover {
     background-color: rgb(219, 214, 214);
     color: rgb(0, 0, 0);
 }
@@ -51,7 +51,7 @@ footer {
     background-color: lightgrey;
 }
 
-ul {
+.navigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
