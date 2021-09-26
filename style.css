@@ -1,21 +1,35 @@
 
-h2 {
+div {
+
+    font-family: Georgia, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+h1,h2,h3,h4,h5 {
     
     text-align: center;
     text-decoration: underline;
-    font-family:'Times New Roman', Times, serif
+    font-family:Georgia, Verdana, sans-serif;
 }
+
+
+}
+
 
 body {
     background-color: rgb(255, 255, 255);
 }
 
 .header {
+    font-family: Georgia, Verdana, sans-serif;
     background-color: lightsteelblue;
     text-align: center;
     padding: 50px;
     font-size: 25px;
 }
+
+    
     
 
 nav {
@@ -26,12 +40,12 @@ nav {
     background-color:rgb(216, 214, 214);
 }
 
-.navigation > li {
+li {
     float: left;
     
 }
 
-.navigation > li a{
+li a{
     padding: 10px 20px;
     display: block;
     width: 100px;
@@ -40,7 +54,7 @@ nav {
 }
 
 /* Endrer på link fargen når vi drar over. */
-.navigation > li a:hover {
+li a:hover {
     background-color: rgb(219, 214, 214);
     color: rgb(0, 0, 0);
 }
@@ -50,12 +64,6 @@ footer {
     margin-top:150vh;
     background-color: lightgrey;
 }
-
-.navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
 
 
 
