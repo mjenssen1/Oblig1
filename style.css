@@ -1,6 +1,8 @@
 
 div {
     font-family: Georgia, Verdana, sans-serif;
+    line-height: 1.5em;
+    padding: 25px 75px;
 }
 
 h1,h2,h3,h4,h5,.navigation {
