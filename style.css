@@ -1,6 +1,5 @@
 
 div {
-
     font-family: Georgia, Verdana, sans-serif;
 }
 
@@ -10,7 +9,6 @@ h1,h2,h3,h4,h5 {
     text-decoration: underline;
     font-family:Georgia, Verdana, sans-serif;
 }
-
 
 
 
@@ -30,7 +28,7 @@ body {
     
     
 
-nav {
+.navigation {
     list-style-type: none;
     margin: 50px;
     padding: 0;
@@ -38,12 +36,12 @@ nav {
     background-color:rgb(216, 214, 214);
 }
 
-li {
+.navigation > li {
     float: left;
     
 }
 
-li a{
+.navigation > li a{
     padding: 10px 20px;
     display: block;
     width: 100px;
@@ -52,7 +50,7 @@ li a{
 }
 
 /* Endrer på link fargen når vi drar over. */
-li a:hover {
+.navigation > li a:hover {
     background-color: rgb(219, 214, 214);
     color: rgb(0, 0, 0);
 }
@@ -62,7 +60,6 @@ footer {
     margin-top:150vh;
     background-color: lightgrey;
 }
-
 
 
 /* Style the submit button with a specific background color etc */
@@ -79,5 +76,4 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #22a529;
   }
-
 
