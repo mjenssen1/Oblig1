@@ -1,21 +1,35 @@
 
-h2 {
+div {
+
+    font-family: Georgia, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+h1,h2,h3,h4,h5 {
     
     text-align: center;
     text-decoration: underline;
-    font-family:'Times New Roman', Times, serif
+    font-family:Georgia, Verdana, sans-serif;
 }
+
+
+}
+
 
 body {
     background-color: rgb(255, 255, 255);
 }
 
 .header {
+    font-family: Georgia, Verdana, sans-serif;
     background-color: lightsteelblue;
     text-align: center;
     padding: 50px;
     font-size: 25px;
 }
+
+    
     
 
 nav {
