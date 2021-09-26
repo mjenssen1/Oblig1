@@ -1,33 +1,42 @@
-h1 {
-    color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
 
 h2 {
     
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif
 }
 
 body {
     background-color: rgb(255, 255, 255);
 }
 
-.navigation {
+.header {
+    background-color: lightsteelblue;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+    
+
+nav {
     list-style-type: none;
-    margin: 0;
+    margin: 50px;
     padding: 0;
-    width: 100px;
-    background-color:rgb(197, 197, 197);
-    border: 1px solid #555;
+    overflow: hidden;
+    background-color:rgb(216, 214, 214);
+}
+
+li {
+    float: left;
+    
 }
 
 li a{
+    padding: 10px 20px;
     display: block;
-    width: 60px;
+    width: 100px;
     color: black;
+    text-align: center;
 }
 
 /* Endrer på link fargen når vi drar over. */
@@ -36,12 +45,10 @@ li a:hover {
     color: rgb(0, 0, 0);
 }
 
-/*Sentrerer paragrafen*/
-p {
-
-    text-align: center;
-
-    
+/*Footer design*/
+footer {
+    margin-top:150vh;
+    background-color: lightgrey;
 }
 
 
