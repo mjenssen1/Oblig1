@@ -34,6 +34,8 @@ body {
     font-size: 25px;
 }
 
+
+
 .center {
     display: block;
     margin-left: auto;
@@ -51,10 +53,15 @@ body {
     background-color:rgb(216, 214, 214);
 
 
+
 }
 
 .navigation > li {
     float: left;
+    
+
+
+
     
 }
 
@@ -62,10 +69,13 @@ body {
     padding: 10px 20px;
     display: block;
     width: 100px;
-    color: black;
+    color: rgb(105, 102, 102);
     text-align: center;
     text-decoration: underline;
     border-radius: 5px;
+    
+    
+ 
    
    
 }
