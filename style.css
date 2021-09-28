@@ -77,8 +77,6 @@ body {
     color: rgb(105, 102, 102);
     text-align: center;
     text-decoration: underline;
-    border-radius: 5px;
-   
 }
 
 /* Endrer på link fargen når vi drar over. */
@@ -91,6 +89,8 @@ body {
 footer {
     margin-top:150vh;
     background-color: lightgrey;
+    position:sticky;
+    bottom: 50px;
 }
 
 
