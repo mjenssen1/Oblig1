@@ -5,13 +5,27 @@ div {
     padding: 25px 75px;
 }
 
-h1,h2,h3,h4,h5,.navigation {
-    
+h1{
     text-align: center;
     
     font-family:Georgia, Verdana, sans-serif;
+
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(12, 29, 175),
+    0 0 82px rgb(30, 39, 168),
+    0 0 92px rgb(19, 28, 146),
+    0 0 102px rgb(48, 51, 177),
+    0 0 151px rgb(39, 15, 145);
     
+}
+
+h2,h3,h4,h5,.navigation {
     
+    text-align: center;
+    font-family:Georgia, Verdana, sans-serif;
 }
 
 
@@ -68,12 +82,14 @@ body {
 }
 
 .navigation > li a{
-    padding: 10px 20px;
+    padding: 10px 10px;
     display: block;
-    width: 100px;
+    width: 200px;
     color: rgb(255, 255, 255);
     text-align-last: center;
     border-top-left-radius: 50px 20px;
+    text-decoration: none;
+    
 
 
 
