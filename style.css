@@ -96,6 +96,8 @@ body {
     
 }
 
+/*KODE UNDER ER FOR CONTACT.HTML FILEN*/
+
 /* Endrer på link fargen når vi drar over. */
 .navigation > li a:hover {
     background-color: rgb(255, 253, 253);
