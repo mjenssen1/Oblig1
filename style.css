@@ -47,8 +47,8 @@ body {
 
 .navigation {
     list-style-type: none;
-    margin: 50px;
     padding: 0;
+    margin: 50px;
     overflow: hidden;
     background-color:rgb(216, 214, 214);
 
@@ -73,10 +73,6 @@ body {
     text-align: center;
     text-decoration: underline;
     border-radius: 5px;
-    
-    
- 
-   
    
 }
 
