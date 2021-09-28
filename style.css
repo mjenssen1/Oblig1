@@ -8,8 +8,10 @@ div {
 h1,h2,h3,h4,h5,.navigation {
     
     text-align: center;
-    text-decoration: underline;
+    
     font-family:Georgia, Verdana, sans-serif;
+    
+    
 }
 
 
@@ -55,7 +57,11 @@ body {
     padding: 0;
     margin: 50px;
     overflow: hidden;
-    background-color:rgb(216, 214, 214);
+    background-color:rgb(63, 64, 160);
+    
+
+
+    
 
 
 
@@ -63,10 +69,10 @@ body {
 
 .navigation > li {
     float: left;
-    
+    padding: 10px; 
 
-
-
+   
+   
     
 }
 
@@ -74,14 +80,18 @@ body {
     padding: 10px 20px;
     display: block;
     width: 100px;
-    color: rgb(105, 102, 102);
-    text-align: center;
-    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-align-last: center;
+    border-top-left-radius: 50px 20px;
+
+
+
+    
 }
 
 /* Endrer på link fargen når vi drar over. */
 .navigation > li a:hover {
-    background-color: rgb(219, 214, 214);
+    background-color: rgb(255, 253, 253);
     color: rgb(0, 0, 0);
 }
 
