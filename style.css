@@ -24,7 +24,9 @@ h2,h3,h4,h5,.navigation {
     font-family:Georgia, Verdana, sans-serif;
 }
 
-
+strong{
+    color: rgb(11, 15, 75);
+}
 p {
     color: rgb(3, 0, 0);
     font-size: 16px;
